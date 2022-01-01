@@ -22,22 +22,22 @@ General note: In principle, the same attributes are used in each sub-table. In t
 
 Attribute | Translation | Explanation | Data type | Variable type
 ------------- | -------------  | ------------- | ------------- | -------------
-Kanton  | Canton | Swiss Canton.  | String | Categorical variable
-Total neue Asylgesuche  | Total new asylum applications | Total number of new asylum applications in the corresponding year. | Integer | quantitative variable
-Mehrfachgesuche nach neuem Asylgesetzt  | Multiple applications under the new Asylum Act | A new asylum application filed within five years of the entry into force of an asylum and removal decision is to be treated as a multiple application under the provisions of Article 111c Asylum Act.  | Integer | quantitative variable
-Wiederaufnahmen Asylgesuche  | Reopening of asylum applications | An asylum application is reexamined.  | Integer | Quantitative variable
-Totale Erledigungen | Gesamtzahl der in diesem Jahr bearbeiteten Asylanträge | Ganze Zahl | Quantitative Variable
-Asylgewährungen  | Number of asylum applications accepted per year  | Integer | quantitative variable
-Ablehnungen mit VA  | Asylum application rejected. Asylum seeker is provisionally admitted.  | integer | quantitative variable
-Ablehnung ohne VA  | Asylum application rejected. Asylum seeker is not admitted.  | integer | quantitative variable
-Nichteintreten mit VA  | No entry with VA | Asylum application is not examined in depth by the authorities. Asylum seeker is provisionally admitted.  | Integer | quantitative variable
-Nichteintreten ohne VA  | Non-admission without VA | Asylum application is not examined in depth by the authorities. Asylum seeker is not admitted.  | Integer | quantitative variable
-Andere Erledigungen: Abschreibungen  | Other settlements: Write-offs | In the case of persons who do not cooperate with the authorities' clarifications without good reason (= violation of the duty to cooperate), the asylum procedure is terminated. A procedure can also be terminated if the asylum seeker is not available to the authorities for more than 20 days. Asylum applications are written off informally in these cases. Unfounded or repeated multiple applications with the same grounds are also written off informally.  | Integer | quantitative variable
+Kanton  | Canton | Swiss Canton.  | string | categorical variable
+Total neue Asylgesuche  | Total new asylum applications | Total number of new asylum applications in the corresponding year. | integer | quantitative variable
+Mehrfachgesuche nach neuem Asylgesetzt  | Multiple applications under the new Asylum Act | A new asylum application filed within five years of the entry into force of an asylum and removal decision is to be treated as a multiple application under the provisions of Article 111c Asylum Act.  | integer | quantitative variable
+Wiederaufnahmen Asylgesuche  | Reopening of asylum applications | An asylum application is reexamined.  | integer | quantitative variable
+Totale Erledigungen | Totally done | Gesamtzahl der in diesem Jahr bearbeiteten Asylanträge | integer | quantitative Variable
+Asylgewährungen  | Asylum Grants | Number of asylum applications accepted per year  | integer | quantitative variable
+Ablehnungen mit VA  | Rejections with VA | Asylum application rejected. Asylum seeker is provisionally admitted.  | integer | quantitative variable
+Ablehnung ohne VA  | Rejections without VA | Asylum application rejected. Asylum seeker is not admitted.  | integer | quantitative variable
+Nichteintreten mit VA  | No entry with VA | Asylum application is not examined in depth by the authorities. Asylum seeker is provisionally admitted.  | integer | quantitative variable
+Nichteintreten ohne VA  | Non-admission without VA | Asylum application is not examined in depth by the authorities. Asylum seeker is not admitted.  | integer | quantitative variable
+Andere Erledigungen: Abschreibungen  | Other settlements: Write-offs | In the case of persons who do not cooperate with the authorities' clarifications without good reason (= violation of the duty to cooperate), the asylum procedure is terminated. A procedure can also be terminated if the asylum seeker is not available to the authorities for more than 20 days. Asylum applications are written off informally in these cases. Unfounded or repeated multiple applications with the same grounds are also written off informally.  | integer | quantitative variable
 Anerkennungsquote in % | Recognition rate in % | Share of asylum granted in total of all decisions (asylum granted, rejections, and NEE) excluding write-offs at the time of the first-instance decision.  | float | quantitative variable
 Schutzquote in %  | Protection rate in % | Share of asylum grants plus temporary admissions in the total of all decisions (asylum grants, rejections, and NEE) excluding write-offs at the time of the first-instance decision.  | float | quantitative variable
-Gesuche (Gruppen)  | Applications (groups) | number of applications in the area of asylum for groups.  | Integer | quantitative variable
+Gesuche (Gruppen)  | Applications (groups) | number of applications in the area of asylum for groups.  | integer | quantitative variable
 Asylgewährungen (Gruppen)  | Asylum granted (groups) | number of asylum applications accepted for groups.  | integer | quantitative variable
-Abschreibungen (Gruppen)  | Depreciations (groups) | Number of depreciations in the area of asylum application for groups.  | Integer | quantitative variable
+Abschreibungen (Gruppen)  | Depreciations (groups) | Number of depreciations in the area of asylum application for groups.  | integer | quantitative variable
 Kontinent/Nation  | Continent/Nation | Continent of origin or country from which asylum seekers originate.   | string | categorical variable
 Geschlecht  | Gender | Gender of asylum seeker.  | string | categorical variable
 
