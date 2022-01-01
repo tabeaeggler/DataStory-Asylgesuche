@@ -6,7 +6,7 @@ By Hannah-Sarah Kühne & Tabea Eggler
 With this analysis, we want to find out how asylum applications in Switzerland have developed over the last 25 years. We examine the distribution of asylum applications by gender, the breakdown of decisions over the years, country-specific facts, and the number of applications by nation. In addition, the cantonal distributions of asylum applications have been examined in more detail.
 
 ## Result
-The analysis with the corresponding graphs can be seen in the following Jupiter Notebook "DataStory_German.ipynb". This is also available as PDF "Export_DataStory_German.pdf".
+The analysis with the corresponding graphs can be seen in the following Jupiter Notebook "DataStory_English.ipynb". This is also available as PDF "Export_DataStory_English.pdf".
 
 ## Data basis
 The data was collected using a Python script on 10/15/2019. There are 25 tables with information on asylum applications in Switzerland provided by the State Secretariat for Migration (SEM). Each table contains data on a specific year. For each year/table, the data are additionally divided into 30 sub-tables. Three of these 30 sub-tables offer the possibility to view information on asylum applications by canton, by a nation of the asylum seeker, or by gender. The remaining sub-tables provide a more in-depth look at cantonal structures.  
