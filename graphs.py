@@ -399,4 +399,3 @@ def get_none_accepted_graph():
     )
     return alt.hconcat((chart_always_declined + text_always_declined).properties(width = 250, height=150, title='Keine angenommenen Gesuche'))
 
-
